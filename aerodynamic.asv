@@ -38,9 +38,7 @@ syms A(x);
 syms w(x);
 N = @(x) rho*v0*diff(A(x)*w(x));
 w = @(x) v0*sin(alpha);
-CN = @(x) 2*sin(alpha)/Aref*diff(A(x));
-
-
+CN = 
 
 % Cma of body components at subsonic speeds
 
